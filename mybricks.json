@@ -1,0 +1,14 @@
+{
+  "debugger": "pc-spa",
+  "componentType": "PC",
+  "namespace": "mybricks.normal-vue",
+  "comAry": [
+    {
+      "title": "示例",
+      "comAry": [
+        "./src/button/com.json"
+      ]
+    },
+    "./src/_code-segment/com.json"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "按钮",
+  "namespace": "mybricks.normal-vue.custom-button",
+  "version": "1.0.0",
+  "description": "按钮",
+  "author": "MyBricks",
+  "author_name": "MyBricks",
+  "icon": "./icon.svg",
+  "data": "./data.json",
+  "runtime": "./runtime.vue",
+  "editors": "./editors.ts",
+  "inputs": [
+    {
+      "id": "dynamicTitle",
+      "title": "设置标题",
+      "schema": {
+        "type": "string"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "id": "click",
+      "title": "单击",
+      "schema": {
+        "type": "number"
+      }
+    },
+    {
+      "id": "dbClick",
+      "title": "双击",
+      "schema": {
+        "type": "number"
+      }
+    }
+  ]
+}
